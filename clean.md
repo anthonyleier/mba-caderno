@@ -51,3 +51,18 @@ Na arquitetura limpa, o controle de fluxo é estruturado de maneira que as camad
 - Como o caso de uso deve trabalhar com múltiplos repositórios?
 - Posso utilizar bibliotecas externas nos meus casos de uso?
 - Casos de uso e interactores são a mesma coisa?
+
+## DDD Patterns
+- Value Objects
+- Entities
+- Aggregate
+- Aggregate Root
+- Domain Events
+
+## Tratamento de eventos
+- Domain events
+    - Publish right away: Já é disparado imediatamente, não muito utilizado
+    - Publish after persistence: Disparar depois de persistir
+    - Publish through persistence (Job ou CDC): Disparar através de uma classe de persistência
+- Domain Event Publish
+- Queue Gateways
