@@ -43,3 +43,11 @@ Na arquitetura limpa, o controle de fluxo é estruturado de maneira que as camad
 - Posso utilizar bibliotecas externas no Domain? Depende, tomar cuidado, nada muito complexo
 - Entidades de domínio vs Entidades JPA: Manter extremamente isolados
 - Até onde utilizar DTOs / Data Structures? Em todos os lugares que não sejam regras de negócio ou usecases
+
+## Usecases e suas controvérsias
+- Quem deve ser responsável pela criação do caso de uso?
+- Qual deve ser o ciclo de vida do caso de uso?
+- O caso de uso deve interagir com outros?
+- Como o caso de uso deve trabalhar com múltiplos repositórios?
+- Posso utilizar bibliotecas externas nos meus casos de uso?
+- Casos de uso e interactores são a mesma coisa?
