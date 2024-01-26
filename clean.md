@@ -36,3 +36,10 @@ Na arquitetura limpa, o controle de fluxo é estruturado de maneira que as camad
 - Presenter
 - Separa "Entities" de "Usecases"
 - Separa "Frameworks and Drivers" de "Interface Adapters"
+
+## Entidades e sua relativização
+- Modelo anêmico: Estruturas de dados sem profundidade, sem regras de negócio
+- Relacionamento entre entidades: Entre agregados, deveria ser por ID. Entre entidades distintas, pode ser por instância
+- Posso utilizar bibliotecas externas no Domain? Depende, tomar cuidado, nada muito complexo
+- Entidades de domínio vs Entidades JPA: Manter extremamente isolados
+- Até onde utilizar DTOs / Data Structures? Em todos os lugares que não sejam regras de negócio ou usecases
