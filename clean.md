@@ -25,3 +25,14 @@ Na arquitetura limpa, o controle de fluxo é estruturado de maneira que as camad
 - Enterprise Business Rules: Regras de negócio
 
 ![Diagrama de Classes](imagens/diagrama_classes.png)
+
+## Clean Architecture vs Hexagonal Architecture
+"Toda aplicação Clean Arch é Hexagonal, mas nem toda Hexagonal é Clean Arch. O Clean Arch define mais coisas, separa frameworks and drivers de interface adapters, separa use cases de entities, prega screaming architecture." - BRANAS, Rodrigo (2023)
+
+- Clean Architecture impõe mais conceitos
+- Screaming Architeture
+- Não utilizar frameworks e bibliotecas em casos de uso, entidades de domínio e, se possível, interface adapters
+- Gateway ao invés de Repository
+- Presenter
+- Separa "Entities" de "Usecases"
+- Separa "Frameworks and Drivers" de "Interface Adapters"
