@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: nginx-service
 spec:
-  type: ClusterIP
+  type: ClusterIP # ou LoadBalancer
   selector:
     app: nginx
   ports:
-  - port: 8080
+  - port: 80
     targetPort: 80

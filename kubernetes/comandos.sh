@@ -29,4 +29,5 @@ kubectl delete deploy nginx-deploy # Deletar o Deployment
 # Services são portas de entradas para o pod, direciona o usuário para o melhor pod possível, atua como LoadBalancer
 kubectl get services # Listar todos os Services
 kubectl apply -f .\kubernetes\service.yaml # Instanciar o Service
+kubectl port-forward service/nginx-service 8000:80 # Apontar a porta 8000 do PC para 80 do Service que direcionará para a 80 dos pods
 kubectl delete services nginx-service # Deletar o Service
